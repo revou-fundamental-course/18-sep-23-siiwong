@@ -34,7 +34,6 @@ body{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1em;
-    background-color: #3ac162;
   }
 
 .content-title{
@@ -49,6 +48,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
+    opacity:0.8;
 }
 
 .content{
