@@ -40,19 +40,15 @@ function showDivs(n) {
     imgList[slideIndex - 1].style.display = "block";
 }
 
-// Mendapatkan elemen formulir
 var form = document.forms["message-form"];
 
-// Menambahkan event listener untuk form submit
 form.addEventListener("submit", function (e) {
-    e.preventDefault(); // Mencegah pengiriman formulir
+    e.preventDefault(); 
 
-    // Mendapatkan data dari formulir
     var fullName = form.elements["full-name"].value;
     var birthDate = new Date(form.elements["birth-date"].value);
     var hobby = form.elements["hobby"].value;
 
-    // Menghitung umur
     var today = new Date();
     var age = today.getFullYear() - birthDate.getFullYear();
 
@@ -61,7 +57,7 @@ form.addEventListener("submit", function (e) {
     document.querySelector(".address").textContent = "Umur: " + age + " tahun";
     document.querySelector(".hobi").textContent = "Hobi: " + hobby;
 
-    // Mengosongkan formulir setelah menampilkan data
+
     form.reset();
 });
 
