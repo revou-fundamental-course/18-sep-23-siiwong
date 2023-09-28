@@ -7,10 +7,6 @@ body{
     justify-content: space-between;
     border-bottom: 1px solid lightgray;
     padding-bottom: 10px;
-    background-image: url(https://wallpapercave.com/wp/wp6865998.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
   }
   
   .page-title {
@@ -48,6 +44,11 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url(https://wallpapercave.com/wp/wp6865998.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
 }
 
 .content{
@@ -95,7 +96,6 @@ button:hover {
 }
 
 .span{
-    font-style: italic;
     color: rgb(141, 140, 140);
     padding-top: 20px;
 }
@@ -131,7 +131,6 @@ button:hover {
 }
 
 .address{
-    font-style:italic ;
     color: grey;
 }
 
@@ -197,14 +196,12 @@ font-weight: lighter;
 
 .kepala{
     padding-bottom: 35px;
-    font-family:'Nunito', sans-serif;
     font-weight: bold;
 }
   
 .contactUs {
     font-weight: bold;
     font-size: 35px;
-    font-family:'Nunito', sans-serif;
   }
   
   .penjelas {
