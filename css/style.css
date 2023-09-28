@@ -26,13 +26,13 @@ body{
   }
   
   .nav-items {
-    border: none;
+    border: 1px solid black;
     padding: 10px 20px;
     align-items: center;
     border-radius: 16px;
     margin: 5px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 1em;
   }
 
